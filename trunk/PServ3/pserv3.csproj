@@ -55,6 +55,9 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>pserv3.exe.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -209,6 +212,7 @@
     <Compile Include="Services\ServiceStateRequest.cs" />
     <Compile Include="Services\ServiceStatus.cs" />
     <Compile Include="StandardColumn.cs" />
+    <None Include="pserv3.exe.manifest" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GPrint\GPrint.csproj">
